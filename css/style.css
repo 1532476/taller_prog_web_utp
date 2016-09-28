@@ -1,0 +1,296 @@
+
+/*Formateo_Basico*/
+
+* { margin: 0px;
+    padding: 0px; }
+
+/* Aplicacion de estilos a los elementos principales*/ 
+h1, h2, h3, h4, h5, h6, p, span, div, legend{
+  font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+  color:#414141;
+}
+
+h1 {font-size: 1.3em;}
+h3 {padding: 2px 0px;
+    font-size: 1.1em;}
+
+h4 {padding: 5px 10px;
+    }
+
+h5 {padding: 5px 10px;
+    font-size: 0.9em}
+p {padding: 5px 18px;
+    }
+
+li, ul {margin: 0px; border: 0px; padding: 0px;
+    font-size: 0.90em;}
+
+/* Se borra el estilo tipico de lista */
+ul, li, ol {  list-style: none;}
+
+header, section, footer, aside, nav, article, figure, hgroup {display: block;}
+
+body { text-align: center; }
+
+span { font:  1em calibri, sans-serif; }
+
+input {margin: 5px 5px}
+
+fieldset p { margin: 5px 10px 5px 10px;
+     } 
+
+textarea {margin: 5px 10px 10px 15px;}
+
+
+#cuerpo {
+  width: 960px;
+  margin: auto;
+  text-align: left;
+}
+
+
+/*Estilos de la cabecera */
+#logos {
+  width: 960px;
+  height: 110px;
+  display: block;
+
+}
+
+#cabecera {
+  width: 960px; 
+  height: 130px;
+  padding: 5px 0px 0px 0px;
+     }
+
+#logo {
+    float: left;
+   }
+
+   #info {
+    padding: 5px 0px;
+    float: right;
+   }
+
+   #sesion {
+    float: right;
+
+  }
+
+/* menu*/
+
+#menu {
+  text-align: center;
+  background: #B3B3B3
+  width: 960px;
+
+}
+
+#menu ul li {
+  float: left;
+  list-style: none;
+  padding: 10px 0px;
+  font: bold 1.2em calibri, sans-serif;
+  width: 240px;
+  ;
+}
+
+#menu ul li:hover { 
+  background:#AEB9C5;
+  list-style:none;
+  display:block; 
+  }
+ /* Defino el tamaño para que el menu desplegable salga en vertical*/ 
+ .submenu {
+  background:#AEB9C5;
+  width: 240px;
+  height: 150px;
+}
+
+ .submenu1 {
+  background:#AEB9C5;
+  width: 240px;
+  height: 180px;
+}
+
+#menu ul li a {text-decoration: none; color:#4F4E4E;}
+
+#menu ul li a:hover {color: white;}
+
+#menu ul li ul {
+        display:none;
+        position:absolute;
+        
+      }
+#menu li:hover > .submenu{
+          display:block;      
+          position: absolute;
+      }
+
+  #menu li:hover > .submenu1{
+          display:block;      
+          position: absolute;
+      }
+
+
+/* fin menu*/
+
+#soluciones  {
+  background: white;
+  width: 960px;
+  height: 262px;
+  margin-top: 10px;
+  }
+
+div > p {
+    font-size: 0.8em;
+}
+/*#soluciones img {
+  float: left;
+}*/
+
+#pie {
+  background: white;
+  width: 960px;
+  height: auto;
+}
+
+#separador3 {
+              clear: both;
+              display: block;
+              height: 7px; 
+             margin: auto;
+             text-align: center;
+             width: 960px;
+             height: 45px;
+
+            }
+
+#pie div {
+
+  width: 220px;
+  padding: 0px 10px;
+  height: 100px;
+  float: left;
+  text-align: center;
+  color:#4F4E4E;
+}
+
+
+#autor  {  
+  color: #666666;
+  clear:both;
+  font: 1em calibri, sans-serif;}
+
+#form {width: 880px;
+        height: auto;
+        margin: auto;}
+
+#nosotros {width: 930px;
+           text-align: center;
+            margin: auto;}
+
+#servicios {width: 800px;
+           text-align: center;
+            margin: auto;}
+#servicios p { padding: 5px 0px; }
+
+#servicios #consultoria {float: left; width: 65%;}
+
+/*bordes para las imagenes */
+img.borders {
+padding:4px;
+border:solid 1px #e7e7e7;
+}
+
+/* estilo adicional para los enlaces de "leer mas"*/ 
+a.more {
+  margin-top:20px;
+  padding-right:14px;
+  color:#007680;
+  text-decoration:none;
+  font-weight:normal;
+}
+
+a {
+  text-decoration: none;
+  color:#414141;
+  font-weight: normal;
+}
+
+.left {
+  width: 30%;
+  height: auto;
+  padding: 12px;
+  float: left;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.right {
+  width: 70%;
+  height: auto;
+  float: right;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: left;
+  padding-right: 8px;
+}
+
+.left-column.box {
+  border:solid 1px #d4d4d4;
+  padding:1px;
+  margin-bottom:10px;
+  display:inline-block;
+  float:left;
+  width:216px;
+
+  /*background:url(http://www.amgsistemas.net/theme/amg2016_green/images/breadcbg.png) repeat-x top;}*/
+}
+
+/* Estilo del formulario de registro*/
+
+form label {
+    display: inline-block;
+    width: 150px;
+}
+
+form input {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+select #pais  {
+    display: inline-block;
+    width: 200px;
+}      
+/*Estilo de botones */
+
+#buttom {
+    padding:10px;
+    margin: 15px;
+    display: inline-block;
+    position: relative;
+    float: left;
+}       
+
+/*Estilo para Los botones de registro e inicio de sesion */ 
+
+.registrando {
+  width: 25px;
+  height: 10px;
+  padding-left: 8px;
+  padding-bottom: 3px;
+  color: gray;
+  text-shadow: 3px 3px 3px #aaa;
+  }
+
+/* Avatar */ 
+#avatar {
+  width: 643px;
+  height: 260px;
+  display: block;
+}

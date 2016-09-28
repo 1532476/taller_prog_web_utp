@@ -1,0 +1,2 @@
+Ha sido probado dentro de la carpeta C://xampp/htdocs. Asi mismo es necesario tener instalado XAMPP 
+para que sea visualizado correctamente.
